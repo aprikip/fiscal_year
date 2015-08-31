@@ -25,7 +25,7 @@ require "fiscal_year"
 ### Features
 You can make a new FiscalYear object with year and fiscal year.
 ```ruby
-FiscalYear.new(2048) # => => #<FiscalYear:0x007fc22a68a0a8 @year=2048>
+FiscalYear.new(2048) # => #<FiscalYear:0x007fc22a68a0a8 @year=2048>
 ```
 Without argument, it creates a FiscalYear object of current fiscal year.
 ```ruby
@@ -91,8 +91,8 @@ FiscalYear.new(2017).dates
 ### Addenda
 This will add #to_fiscal year method to Date class.
 ```ruby
-Date.new(2017, 4, 27).to_fiscal year
-=> #<FiscalYear:0x007fccd402a4d8 @count=24207, @fiscal year=4, @year=2017>
+Date.new(2017, 4, 27).fiscal_year
+=> #<FiscalYear:0x007fc22d04b4c8 @year=2017>
 ```
 
 ## Development
