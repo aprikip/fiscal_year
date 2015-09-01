@@ -21,6 +21,7 @@ And then execute:
 Require no other third party gems.
 ```ruby
 require "fiscal_year"
+include AprikipFiscalYear
 ```
 ### Features
 You can make a new FiscalYear object with year and fiscal year.
